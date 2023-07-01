@@ -16,7 +16,7 @@ then
 	exit
 else
 	mkdir ~/.local/src/PDFTitleExtractor
-	cp main.py ~/.local/src/PDFTitleExtractor/main.py
+	cp main.py ~/.local/src/PDFTitleExtractor/
 	ln -s ~/.local/src/PDFTitleExtractor/main.py ~/.local/bin/PDFTitleExtractor
 	chmod +x ~/.local/src/PDFTitleExtractor/main.py 
 	chmod +x ~/.local/bin/PDFTitleExtractor

@@ -16,7 +16,7 @@ then
 	exit
 else
 	mkdir ~/.local/src/BulkDownloader
-	cp main.py ~/.local/src/BulkDownloader/main.py
+	cp main.py ~/.local/src/BulkDownloader/
 	ln -s ~/.local/src/BulkDownloader/main.py ~/.local/bin/BulkDownloader
 	chmod +x ~/.local/src/BulkDownloader/main.py 
 	chmod +x ~/.local/bin/BulkDownloader

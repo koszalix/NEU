@@ -16,7 +16,7 @@ then
 	exit
 else
 	mkdir ~/.local/src/BMPConv
-	cp main.py ~/.local/src/BMPConv/main.py
+	cp main.py ~/.local/src/BMPConv/
 	ln -s ~/.local/src/BMPConv/main.py ~/.local/bin/BMPConv
 	chmod +x ~/.local/src/BMPConv/main.py 
 	chmod +x ~/.local/bin/BMPConv

@@ -1,3 +1,4 @@
+#!/bin/python3
 from pdfrw import PdfReader
 import argparse
 import os
